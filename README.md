@@ -36,35 +36,55 @@ Copy code
 ###Here's an overview of the available commands:
 
 create: Creates a new object of the specified class.
+
 show: Displays the string representation of an object.
+
 destroy: Deletes an object from the system.
+
 all: Lists all objects of a specific class or all objects if no class is specified.
+
 update: Updates the attributes of an object.
+
 For detailed information on the available actions and arguments for each command, you can use the built-in help command: help (command)
 
 ## Examples
 Here are some examples of using the command interpreter:
 
 Creating a new User object:
+
 sql
 Copy code
+
 (hbnb) create User
+
+
 Showing details of a Place object:
 scss
 Copy code
+
 (hbnb) show Place 1234-5678-9012
+
+
 Deleting a City object:
 scss
 Copy code
+
 (hbnb) destroy City 9876-5432-1098
+
+
 Listing all objects of a specific class:
 scss
 Copy code
+
 (hbnb) all User
+
+
 Updating the name attribute of an object:
 sql
 Copy code
+
 (hbnb) update Review 2468-1357-0246 name "New review name"
+
 
 ## Authors
 This project is a collaborative effort. The following individuals have contributed to the repository:
