@@ -1,0 +1,46 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+env/
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+*.log
+*.vscode/
+
+# Virtual Environment
+.env
+
+# Editors
+.idea/
+.vscode/
+
+# Testing
+htmlcov/
+
+# Dependency directories
+env/
+lib/
+libs/
+node_modules/
+
+# Ignore database files
+*.db
+
+# Ignore generated files
+*.pyc
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore logs and temp files
+logs/
+temp/
+
